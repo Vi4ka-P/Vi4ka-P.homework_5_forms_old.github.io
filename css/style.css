@@ -1,0 +1,265 @@
+{
+	background-color: rgba(255,0,0,0.1);
+}
+.wrapper {
+	}
+
+@font-face {
+	font-family: Helvetica Neue;
+	src: url('../fonts/helveticaNeueCyr-light.otf');
+}
+
+header {
+	background-image: url('../img/background-top-menu.png');
+	background-repeat: no-repeat;
+	margin-top: -7px;
+	position: absolute;
+	width: 1215px;
+}
+
+.box1 {
+	float: left;
+	margin-left: 426px;
+}
+
+.box1 li {
+	display: inline-block;
+}
+
+.box1 a {
+	display: block;
+	width: 80px;
+	height: 42px;
+	text-align: center;
+	font-family: Helvetica Neue, Tahoma;
+	color: #60b5ed;
+	font-size: 14px;
+	font-weight: 400;
+	text-decoration: none;
+}
+
+.box1 a:hover {
+	background-color: #4eabda;
+	background-size: 50%;
+	color: white;
+	font-weight: bold;
+}
+
+.box1 p {
+	padding-top: 15px;
+}
+
+.box2 {
+	float: left;
+	width: 143px;
+	height: 30px;
+	margin-top: 10px;
+	padding-left: 19px;
+	border-left: 1px solid #56a2dc;
+}
+
+.box2 li {
+	display: inline-block;
+}
+
+.box2 a {
+	text-decoration: none;
+}
+
+.box2 img {
+	position: absolute;
+}
+
+.box2 span {
+	display: block;
+	margin-left: 30px;
+	margin-top: 8px;
+	font-family: Helvetica Neue, Tahoma;
+	color: white;
+	font-size: 14px;
+	font-weight: 400;
+	text-decoration: none;
+}
+
+.box3 {
+	float: left;
+}
+
+.box3 li {
+	display: inline-block;
+	background-image: url('../img/ola.png');
+	height: 34px;
+	width: 190px;
+	margin-top: 7px;
+}
+
+.box3 a {
+	display: block;
+	line-height: 35px;
+	font-family: Helvetica Neue, Tahoma;
+	color: white;
+	font-size: 14px;
+	font-weight: 400;
+	text-decoration: none;
+}
+
+.box3 span {
+	display: block;
+	padding: 0 8px;
+}
+
+			/*CONTENT*/
+
+.cadastre {
+	
+	padding-top: 249px;
+	padding-left: 354px;
+
+}
+
+.top-line {
+	position: relative;
+	width: 560px;
+	height: 62px;
+	background-color: rgba(31, 31, 31, 0.7);
+}
+
+
+.top-line p {
+	text-align: center;
+	padding-top: 20px;
+	color: white;
+	font-family: Helvetica Neue, Tahoma;
+	font-size: 24px;
+	font-weight: 400;
+	
+}
+
+.log {
+	position: relative;
+	width: 560px;
+	height: 144px;
+	margin-top: 2px;
+	background-color: rgba(31, 31, 31, 0.7);
+}
+
+
+
+.log img {
+	position: relative;
+	margin-top: 37px;
+	margin-left: 144px;
+}
+
+.ou {
+	position: relative;
+	width: 100px;
+	height: 71px;
+}
+
+.ou img {
+	position: absolute;
+	margin-top: 33px;
+}
+
+.ou span {
+	position: absolute;
+	display: block;
+	margin-top: 26px;
+	margin-left: 272px;
+	color: #999;
+	font-family: Helvetica Neue, Tahoma;
+	font-size: 14px;
+	font-weight: 400;
+}
+
+/*FORMS*/
+
+.forms-bg {
+	position: relative;
+	width: 560px;
+	height: 261px;
+	background-color: rgba(31, 31, 31, 0.7);
+	
+}
+
+.forms {
+	position: relative;
+	margin-left: 140px;
+}
+.forms input {
+	display: block;
+	width: 258px;
+	height: 35px;
+	margin-bottom: 14px;
+	padding-left: 19px;
+	color: white;
+	font-family: Helvetica Neue, Tahoma;
+	font-size: 14px;
+	font-weight: 400;
+	background-color: #100F0F;
+	border: none;
+	border-bottom: 1px solid #5a5a51;
+}
+
+.forms input:focus {
+	background-color: /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1e5799+20,1e5799+80&0+1,0.8+1,0.8+1,1+19,1+81,0.8+100,0+100,0.8+100 */
+background: -webkit-linear-gradient(rgba(30,87,153,0.8) 1%, rgba(30,87,153,1) 19%, rgba(30,87,153,1) 20%, rgba(30,87,153,1) 80%, rgba(30,87,153,1) 81%, rgba(30,87,153,0.8) 100%);
+background: -o-linear-gradient(rgba(30,87,153,0.8) 1%, rgba(30,87,153,1) 19%, rgba(30,87,153,1) 20%, rgba(30,87,153,1) 80%, rgba(30,87,153,1) 81%, rgba(30,87,153,0.8) 100%);
+background: linear-gradient(rgba(30,87,153,0.8) 1%, rgba(30,87,153,1) 19%, rgba(30,87,153,1) 20%, rgba(30,87,153,1) 80%, rgba(30,87,153,1) 81%, rgba(30,87,153,0.8) 100%); /* FF3.6-15 */ /* Chrome10-25,Safari5.1-6 */ /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cc1e5799', endColorstr='#cc1e5799',GradientType=0 ); /* IE6-9 */;
+	box-shadow: -webkit-box-shadow: 0px 0px 8px 1px rgba(93,160,227,1);
+-moz-box-shadow: 0px 0px 8px 1px rgba(93,160,227,1);
+box-shadow: 0px 0px 8px 1px rgba(93,160,227,1);
+	
+}
+
+footer {
+	position: relative;
+	width: 560px;
+	height: 145px;
+	background-color: rgba(31, 31, 31, 0.7);	
+}
+
+.flag {
+	margin-left: 140px;
+	color: #ccc;
+	font-family: Helvetica Neue, Tahoma;
+	font-size: 14px;
+	font-weight: 400;
+}
+
+.account {
+	
+	margin-left: 205px;
+	margin-top: 24px;
+	background-image: url('../img/account.png');
+	background-repeat: no-repeat;
+	
+
+}
+
+.account a {
+	display: block;
+	width: 150px;
+	height: 44px;
+	text-decoration: none;
+	text-align: center;
+	padding-top: 10px;
+	color: white;
+	font-family: Helvetica Neue, Tahoma;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.button {
+	width: 309px;
+	height: 28px;
+	margin-left: 117px;
+	line-height: 16px;
+	color: #ccc;
+	font-family: Helvetica Neue, Tahoma;
+	font-size: 11px;
+	font-weight: 400;
+	text-align: center;
+}
